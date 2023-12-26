@@ -1,6 +1,6 @@
 <?php
 
-// Errors logging
+s// Errors logging
 if(file_exists('1337.log')) unlink('1337.log');
 ini_set('log_errors', 1);
 ini_set('error_log', '1337.log');
